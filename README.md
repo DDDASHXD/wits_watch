@@ -33,22 +33,18 @@ bun watch-upload
 
 ## Installation and setup
 
-Start by cloning this repository:
+Complete installation script (copy and paste whole block into terminal)
 
 ```bash
+# Clone the directory
 git clone https://github.com/DDDASHXD/wits_watch.git
-```
+cd wits_watch
 
-Then, install dependencies:
-
-```bash
+# Install dependencies
 bun install
+
+# rename .env.example to .env
+mv .env.example .env
 ```
 
-Now you need to rename the `.env.example` file to `.env` and fill in the values.
-
-Then, you can run the script:
-
-```bash
-bun watch-upload
-```
+After you've done this, open the `.env` file and fill in the values.
